@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Medidas Polo</title>
+</head>
+<body>
+    <h1>Ingrese las medidas para crear el molde del polo</h1>
+    <form method="POST">
+        <label>Largo del polo (cm): <input type="number" step="0.1" name="largo" required></label><br>
+        <label>Ancho del polo (cm): <input type="number" step="0.1" name="ancho" required></label><br>
+        <label>Largo de manga (cm): <input type="number" step="0.1" name="manga" required></label><br>
+        <label>Cuello (cm): <input type="number" step="0.1" name="cuello" required></label><br>
+        <label>Pecho (cm): <input type="number" step="0.1" name="pecho" required></label><br>
+        <label>Largo total (cm): <input type="number" step="0.1" name="largo_total" required></label><br>
+        <label>Ancho hombro (cm): <input type="number" step="0.1" name="ancho_hombro" required></label><br>
+        <label>Ancho manga (cm): <input type="number" step="0.1" name="ancho_manga" required></label><br>
+        <label>Margen de costura (cm): <input type="number" step="0.1" name="margen_costura" value="1.0" required></label><br>
+        <button type="submit">Generar Molde</button>
+    </form>
+</body>
+</html>

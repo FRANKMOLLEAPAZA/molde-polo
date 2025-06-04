@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Molde Generado</title>
+</head>
+<body>
+    <h1>Medidas del Molde</h1>
+    <ul>
+    {% for clave, valor in medidas.items() %}
+        <li><strong>{{ clave }}:</strong> {{ valor }} cm</li>
+    {% endfor %}
+    </ul>
+    <a href="/">Volver al formulario</a>
+</body>
+</html>
